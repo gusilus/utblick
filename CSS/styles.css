@@ -134,3 +134,28 @@ footer h2 {
 .right-alignment {
   text-align: right;
 }
+
+.container {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container h2, p {
+  margin: 10px;
+  padding: 0;
+  position: relative;
+  top: 40%;
+  transform: translationY(40%);
+}
+
+.button {
+  margin: 10px;
+  padding: 0;
+  alignment: center;
+  position: relative;
+  top: 40%;
+  transform: translationY(40%);
+}
