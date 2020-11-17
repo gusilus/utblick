@@ -40,8 +40,8 @@ html {
   padding: 0;
   alignment: center;
   position: relative;
-  top: 50%;
-  transform: translationY(50%);
+  top: 40%;
+  transform: translationY(40%);
 }
 
 @media (min-width: 10px) {
