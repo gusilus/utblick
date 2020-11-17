@@ -13,7 +13,7 @@ h1, h4, .title {
 
 img {
   /* this is limiting the width of the image, so it takes 100% width of the parent */
-  max-width: 50%;
+  max-width: 70%;
 }
 
 nav {
