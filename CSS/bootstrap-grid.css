@@ -27,6 +27,23 @@ html {
   margin-left: auto;
 }
 
+.container h2, p {
+  margin: 10px;
+  padding: 0;
+  position: relative;
+  top: 40%;
+  transform: translationY(40%);
+}
+
+.button {
+  margin: 10px;
+  padding: 0;
+  alignment: center;
+  position: relative;
+  top: 40%;
+  transform: translationY(40%);
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
