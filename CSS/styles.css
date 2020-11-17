@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', 'sans-serif';
+    font-family: 'IBM Plex Mono', monospace;
 }
 body ul {
   margin: 0;
@@ -8,7 +8,7 @@ body ul {
 }
 
 h1, h4, .title {
-  font-family: 'roboto', 'sans-serif';
+  font-family: 'Major Mono Display', monospace;
 }
 
 img {
@@ -91,12 +91,12 @@ line-height: 150%;
   border: 1px solid salmon;
   text-decoration: none;
   color: salmon;
-  padding: 10px 10px;
-  margin-top: 0px;
+  padding: 10px 20px;
+  margin-top: 40px;
   display: inline-block; /*to make it its own block, piece*/
   border-radius: 20px;
   transition: background 0.5s ease-in-out, color0.5s ease-in-out;
-  margin-bottom: 0px;
+  margin-bottom: 70px;
   alignment: center;
 }
 
@@ -133,29 +133,4 @@ footer h2 {
 
 .right-alignment {
   text-align: right;
-}
-
-.container {
-  width: 100%;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.container h2, p {
-  margin: 10px;
-  padding: 0;
-  position: relative;
-  top: 40%;
-  transform: translationY(40%);
-}
-
-.button {
-  margin: 10px;
-  padding: 0;
-  alignment: center;
-  position: relative;
-  top: 40%;
-  transform: translationY(40%);
 }
